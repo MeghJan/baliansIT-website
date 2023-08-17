@@ -1,0 +1,124 @@
+footer {
+    width: 100%;
+    height: 485px;
+    background: #0f2f40;
+    margin-top: auto;
+    color: #ffffff;
+    padding-top: 25px;
+}
+
+footer .footer-content {
+    display: flex;
+    width: 100%;
+    padding: 60px 0px;
+}
+
+footer .footer-content .column {
+    width: 100%;
+}
+
+footer .footer-content .column:nth-child(1) {
+    max-width: 35%;
+}
+
+footer .footer-content .column:nth-child(2), footer .footer-content .column:nth-child(3) {
+    max-width: 20%;
+}
+
+footer .footer-content .column-list {
+    display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer .footer-content .column-list li {
+    margin:0px;
+    padding: 10px 0px;
+    color: #848e99;
+}
+
+
+footer .footer-content .column-list li span {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-content .column-list a {
+    color: #848e99;
+    display: flex;
+}
+
+footer .footer-content .column-list a:hover {
+    color: #ffffff;
+}
+
+footer .footer-content .column-list span img {
+    width: 18px;
+    height: 18px;
+}
+
+footer .footer-content .title {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: RobotoSlab-Black;
+    margin-bottom: 20px;
+}
+
+footer .back-to-top__button {
+    display: flex;
+    justify-content: center;
+}
+
+footer .back-to-top__button span {
+    background: url("../../images/icon-location-arrow.png") no-repeat center;
+    width: 48px;
+    height: 48px;
+    display: block;
+    background-size: contain;
+    cursor: pointer;
+}
+
+footer .back-to-top__button span:hover {
+    background: url("../../images/icon-location-arrow-yellow.png") no-repeat center;
+    background-size: contain;
+}
+
+footer .footer-social-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .footer-social-links a {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+footer .footer-social-links .facebook span {
+    background: url("../../images/icon-facebook.png") no-repeat center;
+    width: 25px;
+    height: 100%;
+    display: block;
+    background-size: contain;
+}
+
+footer .footer-social-links .facebook:hover span {
+    background: url("../../images/icon-facebook-white.png") no-repeat center;
+    background-size: contain;
+}
+
+footer .footer-social-links .instagram span {
+    background: url("../../images/icon-instagram.png") no-repeat center;
+    width: 25px;
+    height: 100%;
+    display: block;
+    background-size: contain;
+}
+
+footer .footer-social-links .instagram:hover span {
+    background: url("../../images/icon-instagram-white.png") no-repeat center;
+    background-size: contain;
+}

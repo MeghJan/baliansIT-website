@@ -1,0 +1,23 @@
+@import "style.css";
+
+/*toastjs css*/
+@import "plugins/toast.css";
+
+/*slick slider*/
+@import "plugins/slick-theme.css";
+@import "plugins/slick.css";
+
+/*header*/
+@import "layouts/header.css";
+
+/*footer*/
+@import "layouts/footer.css";
+
+/*home main*/
+@import "home-main/home-main.css";
+
+/*courses*/
+@import "courses/courses.css";
+
+/*responsive*/
+@import "responsive.css";
